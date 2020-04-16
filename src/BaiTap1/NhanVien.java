@@ -10,11 +10,11 @@ package BaiTap1;
  * @author ltpnt
  */
 public class NhanVien {
-    String Ten;
-    int Tuoi;
-    String Diachi;
-    double Tienluong;
-    int Tongsogiolam;
+    private String Ten;
+    private int Tuoi;
+    private String Diachi;
+    private double Tienluong;
+    private int Tongsogiolam;
     public String getThongTin() {
         return "Tên:"+Ten+"\n"+"Tuổi:"+Tuoi+"\n"+"Địa chỉ:"+Diachi+
                 "\n"+"Tiền lương:"+Tienluong+"\n"+"Tổng số giờ làm:"+Tongsogiolam+"\n";

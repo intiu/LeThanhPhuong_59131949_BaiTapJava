@@ -10,9 +10,9 @@ package BaiTap3;
  * @author ltpnt
  */
 public class SinhVienIT extends SinhVienPoly{
-    double diemJava;
-    double diemCss;
-    double diemHtml;
+    private double diemJava;
+    private double diemCss;
+    private double diemHtml;
     public SinhVienIT(double diemJava, double diemCss, double diemHtml, String hoTen) {
         super(hoTen, "IT");
         this.diemJava = diemJava;

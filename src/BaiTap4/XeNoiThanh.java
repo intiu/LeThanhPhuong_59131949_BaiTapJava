@@ -10,10 +10,11 @@ package BaiTap4;
  * @author ltpnt
  */
 public class XeNoiThanh extends ChuyenXe{
-    String soTuyen;
-    double soKm;
+    private String soTuyen;
+    private double soKm;
     public XeNoiThanh(){
     }
+    
     public XeNoiThanh(String soTuyen, double soKm, String MaSoChuyen, String HoTenTX, String SoXe, double DoanhThu) {
         super(MaSoChuyen, HoTenTX, SoXe, DoanhThu);
         this.soTuyen = soTuyen;
@@ -24,4 +25,6 @@ public class XeNoiThanh extends ChuyenXe{
         super.xuat(); 
         System.out.println("Số tuyến:"+soTuyen+"\n"+"Số km:"+soKm+"\n");
     }   
+
+        
 }

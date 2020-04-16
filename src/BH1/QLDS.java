@@ -14,8 +14,8 @@ public class QLDS implements IQLDS{
     private List<CaNhan> dsCaNhan = new ArrayList<>();
 
     @Override
-    public int themCaNhan(CaNhan caNhan) {
-        dsCaNhan.add(caNhan);
+    public int them(CaNhan p) {
+        dsCaNhan.add(p);
         return 0;
     }
 

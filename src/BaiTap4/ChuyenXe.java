@@ -10,10 +10,10 @@ package BaiTap4;
  * @author ltpnt
  */
 public class ChuyenXe {
-    String MaSoChuyen;
-    String HoTenTX;
-    String SoXe;
-    double DoanhThu;
+    private String MaSoChuyen;
+    private String HoTenTX;
+    private String SoXe;
+    private double DoanhThu;
     public ChuyenXe(){
     }
     public ChuyenXe(String MaSoChuyen, String HoTenTX, String SoXe, double DoanhThu) {

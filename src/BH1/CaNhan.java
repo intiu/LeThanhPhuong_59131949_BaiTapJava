@@ -10,13 +10,12 @@ package BH1;
  * @author ltpnt
  */
 public abstract class CaNhan {
-    String hoTen;
-    int tuoi;
-    String diaChi;
-    String sdt;
+    private String hoTen;
+    private int tuoi;
+    private String diaChi;
+    private String sdt;
     
-    public CaNhan(){
-        
+    public CaNhan(){        
     }
     public CaNhan(String hoTen, int tuoi, String diaChi, String sdt) {
         this.hoTen = hoTen;

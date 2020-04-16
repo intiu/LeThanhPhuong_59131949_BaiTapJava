@@ -10,8 +10,8 @@ package BH1;
  * @author ltpnt
  */
 public class GiaoVien extends CaNhan{
-    String monDay;
-    String toBoMon;
+    private String monDay;
+    private String toBoMon;
     
     public GiaoVien(String monDay, String toBoMon, String hoTen, int tuoi, String diaChi, String sdt) {
         super(hoTen, tuoi, diaChi, sdt);

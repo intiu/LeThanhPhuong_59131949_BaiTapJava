@@ -10,8 +10,8 @@ package BaiTap3;
  * @author ltpnt
  */
 public abstract class SinhVienPoly {
-    String hoTen;
-    String nganh;
+    private String hoTen;
+    private String nganh;
     public abstract double getDiem();
     public String getHocLuc() {     
         if(getDiem()<5) {
@@ -34,12 +34,7 @@ public abstract class SinhVienPoly {
     public SinhVienPoly(String hoTen, String nganh) {
         this.hoTen = hoTen;
         this.nganh = nganh;
-    }
-    /*
-    public void xuat() {
-        super.xuat(); 
-        System.out.println("Họ tên:"+hoTen+"\n"+"Ngành học:"+nganh);
-    }*/   
+    }  
     public void xuat() {       
         System.out.println("Họ tên:"+hoTen+"\n"+"Ngành học:"+nganh);
     }

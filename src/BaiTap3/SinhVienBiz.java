@@ -10,8 +10,8 @@ package BaiTap3;
  * @author ltpnt
  */
 public class SinhVienBiz extends SinhVienPoly{
-    double diemMarketing;
-    double diemSales;
+    private double diemMarketing;
+    private double diemSales;
     public SinhVienBiz(double diemMarketing, double diemSales, String hoTen) {
         super(hoTen, "Biz");
         this.diemMarketing = diemMarketing;

@@ -10,8 +10,8 @@ package BaiTap4;
  * @author ltpnt
  */
 public class XeNgoaiThanh extends ChuyenXe{
-    String NoiDen;
-    int SoNgayDiDuoc;
+    private String NoiDen;
+    private int SoNgayDiDuoc;
     public XeNgoaiThanh(){
     }
     public XeNgoaiThanh(String NoiDen, int SoNgayDiDuoc, String MaSoChuyen, String HoTenTX, String SoXe, double DoanhThu) {

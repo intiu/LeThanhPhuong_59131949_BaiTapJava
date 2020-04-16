@@ -10,8 +10,8 @@ package BH1;
  * @author ltpnt
  */
 public class HocSinh extends CaNhan{
-    String lop;
-    String nangKhieu;
+    private String lop;
+    private String nangKhieu;
 
     public HocSinh(String lop, String nangKhieu, String hoTen, int tuoi, String diaChi, String sdt) {
         super(hoTen, tuoi, diaChi, sdt);

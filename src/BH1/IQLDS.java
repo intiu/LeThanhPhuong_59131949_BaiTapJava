@@ -10,7 +10,7 @@ package BH1;
  * @author ltpnt
  */
 public interface IQLDS {
-    int themCaNhan(CaNhan caNhan);
+    int them(CaNhan p);
     int xoa(String ten);
     void inDS();
 }
